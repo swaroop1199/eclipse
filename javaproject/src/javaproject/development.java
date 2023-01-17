@@ -7,15 +7,17 @@ public class development {
 		int age=25;
 		System.out.println("IT Development");
 		
-		if(age>20) {
-			System.out.println("Ok");
+		if(age>20) 
+		{	
+		System.out.println("Ok");
 		}
-		else {
-			System.out.println("Not Ok");
+		else 
+		{	
+		System.out.println("Not Ok");
 		}
 		
-		}
 		
+		}
 	}
 
 
