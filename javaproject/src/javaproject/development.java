@@ -1,16 +1,15 @@
 package javaproject;
 
-import java.util.Scanner;
+import javaproject2.development2;
+
 
 public class development {
 
 	public static void main(String[] args) {
 		
-		int Array [] = {1,2,3,4,5};
+		development2 d = new development2();
+		d.display();
 		
-		for(int a: Array) {
-			System.out.println(a);
-		}
 		
 		
 		}
