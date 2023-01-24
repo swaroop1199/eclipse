@@ -1,14 +1,16 @@
 package javaproject;
 
-
 public class development {
 
-	public static void main(String[] args) {
+	 static public void main(String[] args) {
 		
+		Number n; 
+		n = (a)-> 100*a;
+		System.out.println(n.dis(2));
 		
-		demo.display();
-		
-		
+		 
+		 
+		 
 		}
 	}
 
