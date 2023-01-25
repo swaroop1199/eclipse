@@ -2,16 +2,19 @@ package javaproject;
 
 public class development {
 
-	 static public void main(String[] args) {
+	public static void main(String[] args) {
 		
-		Number n; 
-		n = (a)-> 100*a;
-		System.out.println(n.dis(2));
+		classtwo c = new classtwo();
+		c.carstart();
+		//c.carstop();
+		c.bikestart();
+		c.trainstart();
 		
-		 
-		 
-		 
+		classone<String> o = new classone<String>("Hello");
+		System.out.println(o.getvalue());
 		}
+	
 	}
+
 
 
